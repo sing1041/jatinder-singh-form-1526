@@ -1,0 +1,110 @@
+/*import font library*/
+@import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
+
+body {
+	font-family: 'Martel', sans-serif;
+	font-size: 1rem;
+	margin: 0;
+	margin-top: 100px;
+	padding: 0
+}
+* {
+    box-sizing: border-box;
+}
+form {
+    margin: 2rem;
+}
+fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+label {
+    display: block;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.box {
+    margin: 0 0 1rem 0;
+}
+form {
+    margin: 0 auto;
+    width: 66%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+form input,textarea {
+	max-width: 95%;
+    min-height: 30px;
+	width: 90%;
+    border: 1px solid #c9c9c9;
+    padding: 0 5px;
+}
+.box {
+	width:48%;
+	display:inline-block;
+	float:left;
+}
+.message-box {
+	width:100%;
+}
+ 
+textarea {
+    min-height: 80px;
+	min-width: 93%;
+}
+
+
+form label {
+    display: block;
+    padding: 8px 0;
+}
+
+.button-area input {
+    min-width: 160px;
+	max-width: 150px;
+    background: #0082b4;
+    color: #fff;
+    padding: 12px;
+    border: 0px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.button-area input:hover { 
+	cursor:pointer;
+	background: #000;
+}
+/*  media query screen upto 25em */ 
+@media only screen and (max-width: 25em){
+	 
+	input {
+		min-width: 250px;
+	}
+	.box {
+		width : 100%;
+	}	
+}
+/*  media query screen upto 40em */ 
+@media only screen and (max-width:40em) {
+	
+	body {
+		line-height: 1rem;
+	}
+	.box {
+		width: 100%;
+		display: block;
+	}
+	.button-area input {
+		min-width: 233px;
+	}
+	 
+}
+/*  media query screen upto  50em */ 
+@media only screen and (max-width:50em)  {
+	
+	input {
+		min-width: 150px;
+	}	
+}
